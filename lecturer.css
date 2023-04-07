@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #b30000;
+  }
+
+ *{
+    box-sizing: border-box;
+ }
+ 
+ h1 {
+  background-color: rgb(4, 75, 11);
+  }
+  body {
+    background-color: rgb(2, 4, 0);
+    color: rgb(244, 244, 244);
+    text-align: center;
+  }
+  #example1{
+    background-image: url(https://www.sc.su.ac.th/slider/image/scpr-4.jpg);
+    padding: 80px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+    max-width: 200px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: center;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
